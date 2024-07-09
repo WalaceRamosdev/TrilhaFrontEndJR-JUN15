@@ -12,15 +12,32 @@
 .header li {
     margin: 20px;
     list-style: none;
-    font-size: clamp(1.75em, 1em + 0.8vw, 2.5em);
+    font-size: 20px;
+}
+
+.header a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    background-color: #e53939 !important;
+    bottom: 0;
+    left: 0;
 }
 
 .header a {
     color: white !important;
     transition: 0.3s;
+    position: relative;
 }
 
 .header a:hover {
+    color: #e53939 !important;
+    cursor: pointer;
+}
+
+.header a:hover::after {
+    width: 100%;
     cursor: pointer;
     color: #e53939 !important;
     transition: 0.3s;
