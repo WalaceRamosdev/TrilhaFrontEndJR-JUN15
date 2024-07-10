@@ -4,6 +4,7 @@ import './App.css';
 import { Presentation } from './sections/Presentation';
 import { Projects } from './sections/Projects';
 import { Objetivos } from './sections/Objetivos';
+import { Hobbies } from './sections/Hobbies';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Presentation/>
       <Projects/>
       <Objetivos/>
+      <Hobbies/>
     </div>
   );
 }

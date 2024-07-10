@@ -6,20 +6,10 @@
 
 .titlePage {
     display: flex;
-    margin-left: 10%;
+    justify-content: center;
     margin-top: 200px;
     gap: 2px;
-}
-.subPage {
-    margin-left: 10%;
-    margin-top: 15px;
-    display: flex;
     align-items: center;
-    
-}
-
-.subPage a {
-    margin-left: 15px;
 }
 
 .slide {
@@ -64,23 +54,6 @@ img {
         display: flex;
         justify-content: center;
         margin: 150px 0px 60px 0px ;
-    }
-
-    .subPage {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-
-    .subPage a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        margin-left: 0px;
     }
 
     .projects {

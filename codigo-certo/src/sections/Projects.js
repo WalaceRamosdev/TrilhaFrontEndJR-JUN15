@@ -52,12 +52,7 @@ export const Projects = () => {
                 
         </div>
 
-        <div className={style.subPage}>
-            
-            <h2>Veja meus repositórios</h2>
-            <a href="https://github.com/WalaceRamosdev?tab=repositories" target='_blank'><Button text={'GitHub'} className={style.btn}/>
-            </a>
-        </div>
+        
 
         </>
     )
