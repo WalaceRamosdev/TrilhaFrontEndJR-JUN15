@@ -6,21 +6,23 @@
     .menuMobile {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        background: linear-gradient(135deg, #e5393933, rgba(255, 255, 255, 0));
+        justify-content: space-evenly;
+        background: linear-gradient(135deg, #fcfafa21, rgba(255, 255, 255, 0));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 20px;
         position: fixed;
         bottom: 0;
-        width: 100%;
-        margin: 0;
+        width: 99.5%;
+        height: 65px;
+        border: 1px solid white;
+        border-radius: 45px 45px 0px 0px;
+        border-bottom: none;
+        
     }
 
     .menuMobile a {
         margin: 0;
+        padding: 0;
     }
 
 }
