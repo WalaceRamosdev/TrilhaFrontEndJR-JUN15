@@ -13,6 +13,13 @@
 .subPage {
     margin-left: 10%;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.subPage a {
+    margin-left: 15px;
 }
 
 .slide {
@@ -62,7 +69,18 @@ img {
     .subPage {
         display: flex;
         justify-content: center;
-        margin: 20px 0px 60px 0px ;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .subPage a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin-left: 0px;
     }
 
     .projects {

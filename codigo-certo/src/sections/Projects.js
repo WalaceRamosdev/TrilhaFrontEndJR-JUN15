@@ -52,9 +52,10 @@ export const Projects = () => {
                 
         </div>
 
-        <div>
-            <h1 className={style.subPage}>Veja meus repositórios</h1>
-            <a href="https://github.com/WalaceRamosdev?tab=repositories" target='_blank'><Button text={'Repositórios'}/>
+        <div className={style.subPage}>
+            
+            <h1>Veja meus repositórios</h1>
+            <a href="https://github.com/WalaceRamosdev?tab=repositories" target='_blank'><Button text={'Repositórios'} className={style.btn}/>
             </a>
         </div>
 
