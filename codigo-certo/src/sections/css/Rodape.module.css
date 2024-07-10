@@ -31,11 +31,11 @@ h1 {
 
 @media(max-width: 640px ){
     .contato {
-        margin: 30px;
-    }
-    
-    .contato {
         display: none;
+    }
+
+    .rodape .icons {
+        margin-bottom: 115px;
     }
 }
 

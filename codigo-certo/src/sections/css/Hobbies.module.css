@@ -39,10 +39,12 @@
     .hobbies {
         display: flex;
         flex: column;
+        align-items: center;
     }
 
     .hobbies p::before {
-        content: "Hobbies:";
+        content: "Hobbies";
+        font-weight: bold;
         text-align: center;
         font-size: 60px;
         margin-bottom: 120px;
@@ -52,9 +54,11 @@
     .hobbies p {
         display: flex;
         flex-direction: column;
-        width: 85%;
-        height: 850px;
+        width: 80%;
+        height: 870px;
         padding: 20px;
+        margin: 0;
+        margin-bottom: 50px;
     }
 
     h1 {

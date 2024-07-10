@@ -4,14 +4,6 @@
     
 }
 
-.titlePage {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    gap: 2px;
-    align-items: center;
-}
-
 .slide {
     display: none;
 }
@@ -53,7 +45,7 @@ img {
     .titlePage {
         display: flex;
         justify-content: center;
-        margin: 150px 0px 60px 0px ;
+        margin-top: 80px;
     }
 
     .projects {

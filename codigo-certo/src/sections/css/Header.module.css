@@ -15,6 +15,10 @@
     font-size: 20px;
 }
 
+.header a {
+    text-decoration: none;
+}
+
 .header a::after {
     content: " ";
     width: 0%;

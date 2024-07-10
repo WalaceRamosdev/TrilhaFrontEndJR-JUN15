@@ -1,4 +1,3 @@
-
 .menuMobile {
     display: none;
 }
@@ -8,12 +7,20 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        background: linear-gradient(135deg, #e5393933, rgba(255, 255, 255, 0));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         margin-top: 20px;
-        border-radius: 20px 20px 0px 0px;
-        
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
     }
+
+    .menuMobile a {
+        margin: 0;
+    }
+
 }

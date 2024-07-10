@@ -17,9 +17,7 @@ export const Rodape = () => {
             </div>
 
             <div className={style.icons}>
-                <a href='https://www.instagram.com/walacedev.contato/' target='_blank'>
-                    <FaInstagram size={50}/>
-                </a>
+                
                 <a href='https://www.linkedin.com/in/walace-ramos-dev/' target='_blank'>
                     <FaLinkedin size={50}/>
                 </a>
