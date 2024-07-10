@@ -14,9 +14,15 @@
     padding-top: 15px;
 }
 
-.presentation h1 {
+h3 {
+    font-size: 30px;
+}
+
+.presentation h2 {
     margin-top: -10px;
     color: #e53939;
+    font-size: 40px;
+    text-align: center;
 }
 
 .presentation p {

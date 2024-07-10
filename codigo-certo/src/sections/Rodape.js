@@ -6,7 +6,7 @@ export const Rodape = () => {
     return (
         <>
             <h1>Contato</h1>
-        <div className={style.rodape}>
+        <div className={style.rodape} id='contact'>
             
             <div className={style.contato}>
                 <h2><FaWhatsapp /> Tel:</h2>

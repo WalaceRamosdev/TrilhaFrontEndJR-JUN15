@@ -8,29 +8,29 @@ export const Header = () => {
             
                 <ul>
                     <li>
-                        <Link to="/" spy={true} offset={50} duration={500}>
+                        <a href="/" >
                             Sobre Mim
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="#projects" spy={true} offset={50} duration={500}>
+                        <a href="#projects" >
                             Projetos
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="#objetivos" spy={true} offset={50} duration={500}>
+                        <a href="#objetivos" >
                             Objetivos
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="#hobbies" spy={true} offset={50} duration={500}>
+                        <a href="#hobbies" >
                             Hobbies
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="#contact" spy={true} offset={50} duration={500}>
+                        <a href="#contact" >
                         Contato
-                        </Link>
+                        </a>
                     </li>
                 </ul>
         </div>
