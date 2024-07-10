@@ -1,4 +1,5 @@
 import style from './css/Header.module.css'
+import { Link } from 'react-scroll'
 
 export const Header = () => {
 
@@ -7,29 +8,29 @@ export const Header = () => {
             
                 <ul>
                     <li>
-                        <a>
+                        <Link to="/" spy={true} offset={50} duration={500}>
                             Sobre Mim
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a>
+                        <Link to="#projects" spy={true} offset={50} duration={500}>
                             Projetos
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a>
+                        <Link to="#objetivos" spy={true} offset={50} duration={500}>
                             Objetivos
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a>
+                        <Link to="#hobbies" spy={true} offset={50} duration={500}>
                             Hobbies
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a>
-                            Contato
-                        </a>
+                        <Link to="#contact" spy={true} offset={50} duration={500}>
+                        Contato
+                        </Link>
                     </li>
                 </ul>
         </div>
