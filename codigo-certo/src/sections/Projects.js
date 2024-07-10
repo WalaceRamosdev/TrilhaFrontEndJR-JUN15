@@ -54,8 +54,8 @@ export const Projects = () => {
 
         <div className={style.subPage}>
             
-            <h1>Veja meus repositórios</h1>
-            <a href="https://github.com/WalaceRamosdev?tab=repositories" target='_blank'><Button text={'Repositórios'} className={style.btn}/>
+            <h2>Veja meus repositórios</h2>
+            <a href="https://github.com/WalaceRamosdev?tab=repositories" target='_blank'><Button text={'GitHub'} className={style.btn}/>
             </a>
         </div>
 

@@ -3,6 +3,7 @@ import './App.css';
 
 import { Presentation } from './sections/Presentation';
 import { Projects } from './sections/Projects';
+import { Objetivos } from './sections/Objetivos';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Presentation/>
       <Projects/>
+      <Objetivos/>
     </div>
   );
 }
