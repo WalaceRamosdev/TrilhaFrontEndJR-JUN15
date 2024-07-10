@@ -1,0 +1,37 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h1 {
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.rodape a {
+    margin: 30px;
+    transition: 0.5s;
+}
+
+.rodape a:hover {
+    color: #e53939 !important;
+}
+
+.rodape p {
+    font-size: 20px;
+}
+
+.contato h2 {
+    line-height: 5px;
+    color: #e53939;
+}
+
+@media(max-width: 640px ){
+    .contato {
+        margin: 30px;
+    }
+}
+
