@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 export const Header = () => {
 
     return (
-        <div className={style.header}>
+        <div className={style.header} id='header'>
             
                 <ul>
                     <li>

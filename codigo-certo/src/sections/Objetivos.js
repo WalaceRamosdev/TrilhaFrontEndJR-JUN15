@@ -3,8 +3,8 @@ import style from './css/Objetivos.module.css'
 export const Objetivos = () => {
     return (
         <div className={style.objetivos}>
-            <div>
-                <h2>Objetivos : </h2>
+            <div id='objetivos'>
+                <h2>Objetivos</h2>
             </div>
             <p>
                 Tenho estudado incasávelmente com um único propósito: ingressar na área de desenvolvimento.<br/>

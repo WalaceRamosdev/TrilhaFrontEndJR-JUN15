@@ -8,7 +8,7 @@
 h1 {
     margin-top: 200px;
     text-align: center;
-    text-decoration: underline;
+    
 }
 
 .rodape a {
@@ -32,6 +32,10 @@ h1 {
 @media(max-width: 640px ){
     .contato {
         margin: 30px;
+    }
+    
+    .contato {
+        display: none;
     }
 }
 

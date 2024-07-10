@@ -1,7 +1,6 @@
 import { FaInstagram, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { BiLogoGmail } from "react-icons/bi";
 import style from './css/Rodape.module.css'
-import instagram from '../images/icons/instagram.svg'
 
 export const Rodape = () => {
     return (

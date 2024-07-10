@@ -3,7 +3,7 @@ import music from '../images/Profile/music.svg'
 
 export const Hobbies = () => {
     return (
-        <div className={style.hobbies}>
+        <div className={style.hobbies} id='hobbies'>
 
             <p>
                 Além de escrever códigos, também tenho uma grande paixão por música.<br/> Este com certeza foi meu primeiro contato com um mundo no qual poucas pessoas se interessevam.<br/>
@@ -12,7 +12,7 @@ export const Hobbies = () => {
             </p>
 
             <h1>
-                : Hobbies &#127929;
+                Hobbies &#127929;
             </h1>
             
         </div>
