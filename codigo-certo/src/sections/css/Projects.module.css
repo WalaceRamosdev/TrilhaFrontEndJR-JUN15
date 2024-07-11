@@ -35,7 +35,7 @@ img {
     width: 75px;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 890px) {
 
     .slide {
         display: flex;

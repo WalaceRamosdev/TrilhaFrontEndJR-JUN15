@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 890px) {
     .menuMobile {
         display: flex;
         align-items: center;

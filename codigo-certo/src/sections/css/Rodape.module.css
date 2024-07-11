@@ -29,7 +29,7 @@ h1 {
     color: #e53939;
 }
 
-@media(max-width: 640px ){
+@media(max-width: 890px ){
     .contato {
         display: none;
     }

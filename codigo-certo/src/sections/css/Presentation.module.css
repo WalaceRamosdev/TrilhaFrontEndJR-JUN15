@@ -62,7 +62,7 @@ h3 {
     font-size: clamp(1.75em, 1em + 0.8vw, 2.5em);
 }
 
-@media(max-width: 640px) {
+@media(max-width: 890px) {
     .presentation img {
     margin-top: 100px;
     width: 180px;

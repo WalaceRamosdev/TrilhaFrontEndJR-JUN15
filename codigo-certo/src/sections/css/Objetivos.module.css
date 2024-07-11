@@ -20,7 +20,7 @@
     line-height: 30px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 890px) {
     .objetivos {
         display: flex;
         flex-direction: column;

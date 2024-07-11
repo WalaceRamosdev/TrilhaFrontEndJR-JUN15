@@ -35,6 +35,38 @@
     margin: 25px;
 }
 
+@media(max-width: 890px) {
+    .hobbies {
+        display: flex;
+        flex: column;
+        align-items: center;
+    }
+
+    .hobbies p::before {
+        content: "Hobbies";
+        font-weight: bold;
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 120px;
+        margin-top: -150px;
+    }
+
+    .hobbies p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 630px;
+        padding: 20px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+
 @media(max-width: 640px) {
     .hobbies {
         display: flex;
